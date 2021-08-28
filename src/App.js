@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect } from 'react'
-
+import Map from './MapContainer';
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=203e7359b9fc1b02acbb85ed03e2900f"></script>
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <Map />
+      </body>
     </div>
   )}
 
