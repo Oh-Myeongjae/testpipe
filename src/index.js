@@ -7,7 +7,6 @@ import Map from './MapContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <Map />
   </React.StrictMode>,
     document.getElementById('root')
