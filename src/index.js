@@ -6,11 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import Map from './MapContainer';
 
 ReactDOM.render(
-  document.getElementById('root'),
-   <React.StrictMode>
+  <React.StrictMode>
     <App />
     <Map />
-  </React.StrictMode>
+  </React.StrictMode>,
+     document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
