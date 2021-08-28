@@ -11,9 +11,8 @@ const MapContainer = () => {
 			level: 3
 		};
         const map = new kakao.maps.Map(container, options);
-        console.log('map에 들어옴')
     }, []);
-
+    console.log('map에 들어옴');
 
     return (
         <div id='myMap' style={{
