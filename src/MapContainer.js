@@ -12,7 +12,6 @@ const MapContainer = () => {
 		};
         const map = new kakao.maps.Map(container, options);
     }, []);
-    console.log('map에 들어옴');
 
     return (
         <div id='myMap' style={{
@@ -20,8 +19,7 @@ const MapContainer = () => {
             height: '500px'      
         }}>
             <p>테스트 중입니다.</p>
-            {
-        console.log('map123에 들어옴')}
+    
         </div>
     );
 }
